@@ -10,3 +10,6 @@ Description:
 - Built with React + TypeScript, styled with Tailwind, deployed via GitHub Pages.
 
 Contact: [Update with contact email]
+
+---
+*Last updated: 2025-12-01*
