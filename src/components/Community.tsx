@@ -76,10 +76,10 @@ const Community: React.FC<CommunityProps> = ({ className }) => {
                 See the router in action.
               </p>
               <a 
-                href="mailto:team@baifunds.com"
+                href="mailto:contact@sequencemkts.com"
                 className="inline-block bg-gray-900 text-white font-medium text-xs uppercase tracking-[0.2em] px-8 py-4 hover:bg-gray-800 transition-all duration-200"
               >
-                team@baifunds.com
+                contact@sequencemkts.com
               </a>
             </div>
           </FadeIn>

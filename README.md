@@ -1,11 +1,12 @@
-# BAI Funds Website
+# Sequence Markets Website
 
-Public landing site for BAI Funds (Bai Awan Investments).
+Public landing site for Sequence Markets.
 
-Live: https://baifunds.com
+Live: https://sequencemkts.com
 
 Description:
-- Professional, investor-focused website describing BAI’s quantitative research platform, technology, and team.
+- Professional website for Sequence Markets - The Execution OS for Digital Assets.
+- Venue-neutral smart order routing for crypto and tokenised assets.
 - Built with React + TypeScript, styled with Tailwind, deployed via GitHub Pages.
 
-Contact: team@baifunds.com
+Contact: [Update with contact email]
