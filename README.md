@@ -64,7 +64,7 @@ Site is automatically deployed to GitHub Pages via GitHub Actions on push to `ma
 
 ## Contact
 
-contact@sequencemkts.com
+team@sequencemkts.com
 
 ---
 
