@@ -1,16 +1,11 @@
-# Sequence-Markets-Website
+# BAI Funds Website
 
-Website for Sequence Markets.
+Public landing site for BAI Funds (Bai Awan Investments).
 
-## Getting Started
+Live: https://baifunds.com
 
-This repository contains the source code for the Sequence Markets website.
+Description:
+- Professional, investor-focused website describing BAI’s quantitative research platform, technology, and team.
+- Built with React + TypeScript, styled with Tailwind, deployed via GitHub Pages.
 
-## Development
-
-Instructions for setting up and running the development environment will be added here.
-
-## License
-
-[Add license information here]
-
+Contact: team@baifunds.com

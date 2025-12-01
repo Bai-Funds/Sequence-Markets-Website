@@ -1,0 +1,39 @@
+---
+alwaysApply: true
+---
+
+
+**PROJECT: BAI Website (baifunds.com) - Development Logging Rule**
+
+**CONTEXT:** This is a React/TypeScript website for BAI Funds (Bai Awan Investments) hosted on GitHub Pages with custom domain baifunds.com.
+
+**CRITICAL DEPLOYMENT ISSUES TO AVOID:**
+- **MIME Type Error**: GitHub Pages serves JS files as `application/octet-stream` instead of `application/javascript`
+- **Prevention**: Always use `target: 'es2020'` in vite.config.ts, avoid `es2015` or older targets
+- **White Screen Issue**: Caused by JavaScript modules failing to load due to MIME type mismatch
+- **Solution**: If MIME error occurs, rebuild with es2020 target and redeploy
+
+**RULE:** Every time we complete a development session or make significant changes, you MUST:
+
+1. **Update the development log** in `DEVELOPMENT_LOG.md` with:
+   - Date and timestamp
+   - What we accomplished
+   - Technical changes made
+   - Files modified
+   - Any issues encountered and how they were resolved
+   - Current project status
+   - Next steps or goals
+
+2. **Maintain project context** by keeping track of:
+   - Overall project goals
+   - Technical architecture decisions
+   - SEO optimization progress
+   - Deployment status
+   - Known issues or limitations
+   - **CRITICAL**: Always check vite.config.ts target is 'es2020' before deployment
+
+3. **Format consistently** using clear sections, bullet points, and technical details
+
+4. **Reference this log** at the start of each new session to maintain continuity
+
+**GOAL:** Create a comprehensive, searchable development history that any developer (including future AI assistants) can reference to understand the project's evolution, decisions, and current state.
