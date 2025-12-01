@@ -69,6 +69,10 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
 
             <h1 className="text-[2.5rem] md:text-[4rem] lg:text-[5rem] font-bold tracking-[-0.02em] leading-[1.05] mb-12 min-h-[2.5em]">
               <span className="text-gray-900">
+                Sequence Markets
+              </span>
+              <br />
+              <span className="text-gray-900">
                 {line1Text}
               </span>
               {line2Text && (
@@ -84,7 +88,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
             </h1>
             
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-xl mb-14 font-normal animate-fade-in-up">
-              Venue-neutral smart order routing for crypto and tokenised assets. We connect to global liquidity, evaluate real-time depth, fees and latency, and execute with precision.
+              Sequence Markets provides venue-neutral smart order routing for crypto and tokenised assets. We connect to global liquidity, evaluate real-time depth, fees and latency, and execute with precision.
             </p>
             
             <div className="flex flex-wrap gap-4 animate-fade-in-up-delayed">

@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-# Sitemap temporarily removed due to MIME type issues
+Sitemap: https://sequencemkts.com/sitemap.xml
 
 # Crawl delay (optional)
 Crawl-delay: 1
