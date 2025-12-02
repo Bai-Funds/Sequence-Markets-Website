@@ -1,18 +1,37 @@
+# Sequence Markets - Smart Order Routing for Crypto & Digital Assets
+# https://sequencemkts.com
+
 User-agent: *
 Allow: /
 
-# Sitemap location
+# Sitemap
 Sitemap: https://sequencemkts.com/sitemap.xml
 
-# Crawl delay (optional)
-Crawl-delay: 1
-
-# Allow all important directories
+# Allow search engines to index all content
 Allow: /assets/
-Allow: /public/
+Allow: /#about
+Allow: /#what-we-do
+Allow: /#technology
+Allow: /#team
+Allow: /#contact
 
-# Disallow admin or private areas (if any exist)
+# Disallow non-public areas
 Disallow: /admin/
 Disallow: /private/
 Disallow: /.git/
-Disallow: /node_modules/ 
+Disallow: /node_modules/
+Disallow: /*.json$
+Disallow: /*.map$
+
+# Crawl rate (be friendly to search engines)
+Crawl-delay: 1
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing specific  
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1 
