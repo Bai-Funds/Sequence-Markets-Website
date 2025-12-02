@@ -90,7 +90,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
           <div className="flex items-center justify-between mb-10">
             <img
               src="/assets/logo-light.png"
-              alt="Sequence Markets"
+              alt="Sequence Markets - Crypto Execution Services and Institutional Execution Platform"
               className="h-8 w-auto object-contain"
             />
             <button
