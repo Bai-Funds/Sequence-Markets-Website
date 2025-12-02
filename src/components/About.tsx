@@ -30,13 +30,13 @@ const About: React.FC<AboutProps> = ({ className }) => {
             <div>
               <FadeIn delay={100}>
                 <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-10 font-normal">
-                  Sequence Markets is an execution-technology company focused on digital assets and tokenised markets.
+                  Sequence Markets is an execution-technology company providing smart order routing, high-frequency trading infrastructure, and low-latency execution services for crypto, digital assets, and tokenised markets. We deliver institutional execution platforms and crypto execution services with sub-5ms latency.
                 </p>
               </FadeIn>
 
               <FadeIn delay={150}>
                 <p className="text-base text-gray-600 leading-relaxed mb-12 font-normal">
-                  We operate at the intersection of market structure, low-latency engineering, and AI-driven decision systems. Headquartered in Toronto, with planned expansion into Asia and the United States.
+                  We operate at the intersection of market structure, low-latency engineering, and AI-driven decision systems. Our high-frequency trading infrastructure and low-latency execution services serve institutions, exchanges, brokers, and funds globally. Headquartered in Toronto, with planned expansion into Asia and the United States.
                 </p>
               </FadeIn>
 
@@ -45,9 +45,10 @@ const About: React.FC<AboutProps> = ({ className }) => {
                   <h3 className="text-xs text-gray-500 uppercase tracking-[0.4em] font-medium mb-6">Team Background</h3>
                   <ul className="space-y-3 text-gray-700 text-base font-normal">
                     <li>Market-structure research at major Canadian exchanges</li>
-                    <li>Execution systems for institutional asset managers</li>
-                    <li>Low-latency trading infrastructure</li>
-                    <li>Machine learning and distributed systems</li>
+                    <li>Execution systems and high-frequency trading infrastructure for institutional asset managers</li>
+                    <li>Low-latency trading infrastructure and crypto execution services</li>
+                    <li>Machine learning and distributed systems for algorithmic trading</li>
+                    <li>Institutional execution platform development</li>
                   </ul>
                 </div>
               </FadeIn>

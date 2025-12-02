@@ -48,7 +48,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
         >
           <img
             src="/assets/logo-light.png"
-            alt="Sequence Markets"
+            alt="Sequence Markets - Smart Order Routing, High Frequency Trading Infrastructure, Low Latency Execution Services for Crypto"
             className="h-10 md:h-12 w-auto object-contain"
           />
         </button>

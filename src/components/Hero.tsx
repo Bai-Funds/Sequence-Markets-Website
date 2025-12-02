@@ -64,7 +64,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
         <div className="container mx-auto py-32 relative z-10">
           <div className="max-w-4xl">
             <p className="text-xs md:text-sm text-gray-500 uppercase tracking-[0.4em] font-medium mb-10 animate-fade-in">
-              Smart Order Routing
+              Smart Order Routing | High Frequency Trading Infrastructure | Low Latency Execution Services
             </p>
 
             <h1 className="text-[2.5rem] md:text-[4rem] lg:text-[5rem] font-bold tracking-[-0.02em] leading-[1.05] mb-12 min-h-[2.5em]">
@@ -85,7 +85,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
             </h1>
             
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-xl mb-14 font-normal animate-fade-in-up">
-              Sequence Markets provides venue-neutral smart order routing for crypto and tokenised assets. We connect to global liquidity, evaluate real-time depth, fees and latency, and execute with precision.
+              Sequence Markets provides venue-neutral smart order routing, high-frequency trading infrastructure, and low-latency execution services for crypto and digital assets. Institutional execution platform delivering best execution through real-time liquidity analysis, sub-5ms latency, and AI-powered routing optimization.
             </p>
             
             <div className="flex flex-wrap gap-4 animate-fade-in-up-delayed">

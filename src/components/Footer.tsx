@@ -16,11 +16,11 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
           <div>
             <img
               src="/assets/logo-light.png"
-              alt="Sequence Markets"
+              alt="Sequence Markets - Smart Order Routing, High Frequency Trading Infrastructure, Low Latency Execution Services"
               className="h-10 w-auto object-contain mb-5"
             />
             <p className="text-gray-500 text-sm max-w-xs font-normal leading-relaxed">
-              The Execution OS for Digital Assets. Venue-neutral smart order routing for crypto and tokenised markets.
+              Sequence Markets provides smart order routing, high-frequency trading infrastructure, and low-latency execution services for crypto. Institutional execution platform delivering best execution for digital assets and tokenised markets.
             </p>
           </div>
 
