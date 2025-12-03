@@ -48,7 +48,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
         >
           <img
             src="/assets/logo-light.png"
-            alt="Sequence Markets - Smart Order Routing, High Frequency Trading Infrastructure, Low Latency Execution Services for Crypto"
+            alt="Sequence Markets"
             className="h-10 md:h-12 w-auto object-contain"
           />
         </button>
@@ -90,7 +90,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
           <div className="flex items-center justify-between mb-10">
             <img
               src="/assets/logo-light.png"
-              alt="Sequence Markets - Crypto Execution Services and Institutional Execution Platform"
+              alt="Sequence Markets"
               className="h-8 w-auto object-contain"
             />
             <button

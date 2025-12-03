@@ -16,11 +16,11 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
           <div>
             <img
               src="/assets/logo-light.png"
-              alt="Sequence Markets - Smart Order Routing, High Frequency Trading Infrastructure, Low Latency Execution Services"
+              alt="Sequence Markets"
               className="h-10 w-auto object-contain mb-5"
             />
             <p className="text-gray-500 text-sm max-w-xs font-normal leading-relaxed">
-              Sequence Markets provides smart order routing, high-frequency trading infrastructure, and low-latency execution services for crypto. Institutional execution platform delivering best execution for digital assets and tokenised markets.
+              The Execution OS for Digital Assets. Venue-neutral smart order routing for crypto and tokenised markets.
             </p>
           </div>
 
@@ -69,10 +69,10 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
             &copy; {new Date().getFullYear()} Sequence Markets. All rights reserved.
           </div>
           <a
-            href="mailto:team@sequencemkts.com"
+            href="mailto:team@baifunds.com"
             className="text-sm text-gray-500 hover:text-gray-900 transition-colors font-normal"
           >
-            team@sequencemkts.com
+            team@baifunds.com
           </a>
         </div>
       </div>

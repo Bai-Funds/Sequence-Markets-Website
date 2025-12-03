@@ -18,25 +18,25 @@ const Manifesto: React.FC<ManifestoProps> = ({ className }) => {
         <div className="max-w-5xl mx-auto">
           <FadeIn>
             <p className="text-xs text-gray-500 uppercase tracking-[0.4em] font-medium mb-6">
-              Smart Order Routing | Execution Services | High Frequency Trading Infrastructure
+              Products
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-16 leading-[0.95] tracking-[-0.02em]">
-              Crypto Execution Services & Infrastructure
+              What We Do
             </h2>
           </FadeIn>
           
           <FadeIn delay={100}>
             <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-20 max-w-3xl font-normal">
-              Sequence Markets builds smart order routing and high-frequency trading infrastructure for crypto execution. Low-latency execution services connecting to major exchanges with unified order book aggregation, routing to venues with best price, liquidity, and execution quality for institutional crypto trading.
+              We build smart crypto execution routing. Connect to major exchanges, unified order book, route to the venue with the best price and liquidity.
             </p>
           </FadeIn>
           
           <div className="grid lg:grid-cols-2 gap-16 mb-20">
             <FadeIn delay={150}>
               <div className="border-t border-gray-200 pt-10">
-                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 tracking-[-0.01em]">Smart Order Routing for Crypto</h3>
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 tracking-[-0.01em]">Smart Order Routing</h3>
                 <p className="text-gray-600 leading-relaxed mb-6 text-base font-normal">
-                  Multi-venue smart order routing engine for crypto execution services. Evaluates price, liquidity, latency, fee schedules, and historical fill probabilities to determine optimal execution paths. Part of our high-frequency trading infrastructure delivering best execution for institutional crypto trading.
+                  Multi-venue routing engine that evaluates price, liquidity, latency, fee schedules, and historical fill probabilities to determine the optimal execution path for every order.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-500 font-normal">
                   <li>• Real-time depth aggregation</li>
@@ -49,9 +49,9 @@ const Manifesto: React.FC<ManifestoProps> = ({ className }) => {
             
             <FadeIn delay={200}>
               <div className="border-t border-gray-200 pt-10">
-                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 tracking-[-0.01em]">Institutional Execution Platform</h3>
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 tracking-[-0.01em]">Execution OS</h3>
                 <p className="text-gray-600 leading-relaxed mb-6 text-base font-normal">
-                  Unified execution management system (EMS) and order management system (OMS) for institutions. Manage routing, analytics, monitoring, and risk controls across exchanges, OTC desks, and tokenised markets. Low-latency execution services with high-frequency trading infrastructure.
+                  Unified interface for institutions to manage routing, analytics, monitoring, and risk controls across exchanges, OTC desks, and tokenised markets.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-500 font-normal">
                   <li>• Centralized order management</li>

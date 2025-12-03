@@ -18,16 +18,16 @@ const TechnologyPlatform: React.FC<TechnologyPlatformProps> = ({ className }) =>
         <div className="max-w-5xl mx-auto">
           <FadeIn>
             <p className="text-xs text-gray-500 uppercase tracking-[0.4em] font-medium mb-6">
-              High Frequency Trading Infrastructure | Low Latency Execution Services
+              Infrastructure
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-16 leading-[0.95] tracking-[-0.02em]">
-              Technology & Infrastructure
+              Technology
             </h2>
           </FadeIn>
           
           <FadeIn delay={100}>
             <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-12 max-w-3xl font-normal">
-              Purpose-built high-frequency trading infrastructure and low-latency execution services designed for speed, reliability, and continuous optimization. Our institutional execution platform delivers sub-5ms latency for crypto execution services.
+              Purpose-built execution infrastructure designed for speed, reliability, and continuous optimization.
             </p>
           </FadeIn>
 
@@ -39,7 +39,7 @@ const TechnologyPlatform: React.FC<TechnologyPlatformProps> = ({ className }) =>
                   <h3 className="text-lg font-bold text-gray-900">Proprietary Infrastructure</h3>
                   <span className="text-[10px] bg-gray-900 text-white px-2 py-0.5 rounded uppercase tracking-wider">Coming Soon</span>
                 </div>
-                <p className="text-gray-600 text-sm font-normal">Non-cloud based, ultra-low latency co-located infrastructure for high-frequency trading and HFT-grade crypto execution. Sub-millisecond latency for institutional execution services.</p>
+                <p className="text-gray-600 text-sm font-normal">Non-cloud based, ultra-low latency co-located infrastructure for HFT-grade execution</p>
               </div>
             </FadeIn>
             <FadeIn delay={150}>
@@ -48,7 +48,7 @@ const TechnologyPlatform: React.FC<TechnologyPlatformProps> = ({ className }) =>
                   <h3 className="text-lg font-bold text-gray-900">Cloud Infrastructure</h3>
                   <span className="text-[10px] bg-emerald-600 text-white px-2 py-0.5 rounded uppercase tracking-wider">Live</span>
                 </div>
-                <p className="text-gray-600 text-sm font-normal">Low-latency cloud-based execution infrastructure with global availability and elastic scaling. High-frequency trading infrastructure for crypto execution services worldwide.</p>
+                <p className="text-gray-600 text-sm font-normal">Low-latency cloud-based execution with global availability and elastic scaling</p>
               </div>
             </FadeIn>
           </div>

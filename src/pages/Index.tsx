@@ -9,7 +9,6 @@ import About from '@/components/About';
 import Community from '@/components/Community';
 import Footer from '@/components/Footer';
 import CryptoTicker from '@/components/CryptoTicker';
-import SEOContent from '@/components/SEOContent';
 
 const Index = () => {
   useEffect(() => {
@@ -56,7 +55,6 @@ const Index = () => {
         <FoundersInSearch />
         <Community />
         <Footer />
-        <SEOContent />
       </div>
     </main>
   );

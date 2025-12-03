@@ -21,13 +21,13 @@ const Community: React.FC<CommunityProps> = ({ className }) => {
               Contact
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-16 leading-[0.95] tracking-[-0.02em]">
-              Institutional Execution Services
+              Get Started
             </h2>
           </FadeIn>
           
           <FadeIn delay={100}>
             <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-20 max-w-2xl font-normal">
-              High-frequency trading infrastructure and low-latency execution services for crypto. Reduce execution cost with best execution algorithms. Full transparency. No custody risk. Sub-5ms latency institutional execution platform.
+              Reduce execution cost. Full transparency. No custody risk.
             </p>
           </FadeIn>
 
@@ -36,11 +36,8 @@ const Community: React.FC<CommunityProps> = ({ className }) => {
               <div className="border-t border-gray-200 pt-10">
                 <h3 className="text-lg font-bold text-gray-900 mb-6">For Institutions</h3>
                 <ul className="text-gray-600 space-y-3 text-base font-normal">
-                  <li>Multi-venue smart order routing</li>
-                  <li>High-frequency trading infrastructure</li>
-                  <li>Low-latency execution services</li>
+                  <li>Multi-venue access</li>
                   <li>Total execution cost reduction</li>
-                  <li>Institutional execution platform</li>
                   <li>Transparent analytics</li>
                   <li>No custody risk</li>
                 </ul>
@@ -51,10 +48,8 @@ const Community: React.FC<CommunityProps> = ({ className }) => {
               <div className="border-t border-gray-200 pt-10">
                 <h3 className="text-lg font-bold text-gray-900 mb-6">For Brokers</h3>
                 <ul className="text-gray-600 space-y-3 text-base font-normal">
-                  <li>Best-execution engine for crypto</li>
-                  <li>Low-latency execution services</li>
+                  <li>Best-execution engine</li>
                   <li>Liquidity optimization</li>
-                  <li>High-frequency trading infrastructure</li>
                   <li>Plug-and-play API</li>
                   <li>Regulatory-grade logs</li>
                 </ul>
@@ -66,9 +61,6 @@ const Community: React.FC<CommunityProps> = ({ className }) => {
                 <h3 className="text-lg font-bold text-gray-900 mb-6">For Funds</h3>
                 <ul className="text-gray-600 space-y-3 text-base font-normal">
                   <li>Low-latency multi-venue execution</li>
-                  <li>High-frequency trading infrastructure</li>
-                  <li>Institutional execution platform</li>
-                  <li>Crypto execution services</li>
                   <li>Automated sizing and slicing</li>
                   <li>Real-time slippage control</li>
                   <li>Advanced analytics</li>
@@ -84,10 +76,10 @@ const Community: React.FC<CommunityProps> = ({ className }) => {
                 See the router in action.
               </p>
               <a 
-                href="mailto:team@sequencemkts.com"
+                href="mailto:team@baifunds.com"
                 className="inline-block bg-gray-900 text-white font-medium text-xs uppercase tracking-[0.2em] px-8 py-4 hover:bg-gray-800 transition-all duration-200"
               >
-                team@sequencemkts.com
+                team@baifunds.com
               </a>
             </div>
           </FadeIn>
