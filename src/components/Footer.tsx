@@ -69,10 +69,10 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
             &copy; {new Date().getFullYear()} Sequence Markets. All rights reserved.
           </div>
           <a
-            href="mailto:team@baifunds.com"
+            href="mailto:team@sequencemkts.com"
             className="text-sm text-gray-500 hover:text-gray-900 transition-colors font-normal"
           >
-            team@baifunds.com
+            team@sequencemkts.com
           </a>
         </div>
       </div>
