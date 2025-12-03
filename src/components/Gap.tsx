@@ -9,7 +9,7 @@ interface GapProps {
 
 const Gap: React.FC<GapProps> = ({ className }) => {
   return (
-    <section id="how-it-works" className={cn('py-28 md:py-36 bg-gray-50 relative overflow-hidden', className)}>
+    <section id="how-it-works" className={cn('py-16 md:py-20 bg-gray-50 relative overflow-hidden', className)}>
       {/* Infinity loop - feedback visualization - subtle */}
       <div className="opacity-50">
         <InfinityLoop />
@@ -20,18 +20,18 @@ const Gap: React.FC<GapProps> = ({ className }) => {
             <p className="text-xs text-gray-500 uppercase tracking-[0.4em] font-medium mb-6">
               Process
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-16 leading-[0.95] tracking-[-0.02em]">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-12 leading-[0.95] tracking-[-0.02em]">
               How It Works
             </h2>
           </FadeIn>
           
           <FadeIn delay={100}>
-            <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-20 max-w-3xl font-normal">
+            <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-12 max-w-3xl font-normal">
               Execution results feed back into the model. Continuously tunes venue weights and child-order sizing.
             </p>
           </FadeIn>
         
-          <div className="grid lg:grid-cols-3 gap-12 mb-20">
+          <div className="grid lg:grid-cols-3 gap-12 mb-12">
             <FadeIn delay={150}>
               <div className="border-t border-gray-200 pt-10">
                 <div className="text-6xl font-bold text-gray-700 mb-6 tracking-[-0.02em]">01</div>

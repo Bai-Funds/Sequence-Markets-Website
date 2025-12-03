@@ -78,20 +78,20 @@ const FoundersInSearch: React.FC<FoundersInSearchProps> = ({ className }) => {
   );
 
   return (
-    <section id="team" className={cn('pt-16 pb-28 md:pt-20 md:pb-36 bg-gray-50', className)}>
+    <section id="team" className={cn('pt-16 pb-16 md:pt-20 md:pb-20 bg-gray-50', className)}>
       <div className="container mx-auto">
         <div className="max-w-5xl mx-auto mb-16">
           <FadeIn>
             <p className="text-xs text-gray-500 uppercase tracking-[0.4em] font-medium mb-6">
               People
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-16 leading-[0.95] tracking-[-0.02em]">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-12 leading-[0.95] tracking-[-0.02em]">
               Team
             </h2>
           </FadeIn>
 
           <FadeIn delay={100}>
-            <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-16 max-w-3xl font-normal">
+            <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-12 max-w-3xl font-normal">
               Market-structure engineers and ML researchers building execution infrastructure.
             </p>
           </FadeIn>

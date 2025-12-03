@@ -20,13 +20,14 @@ const Index = () => {
         if (!targetId) return;
 
         const targetElement = document.getElementById(targetId);
-        // Use fixed offset to match Header behavior
-        const headerOffset = 60;
         if (targetElement) {
+          const header = document.querySelector('header');
+          const headerHeight = header ? header.getBoundingClientRect().height : 80;
+          const offset = headerHeight - 40;
           const rect = targetElement.getBoundingClientRect();
           const absoluteTop = window.scrollY + rect.top;
           window.scrollTo({
-            top: absoluteTop - headerOffset,
+            top: absoluteTop - offset,
             behavior: 'smooth'
           });
         }

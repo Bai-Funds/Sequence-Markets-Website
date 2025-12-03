@@ -9,7 +9,7 @@ interface AboutProps {
 
 const About: React.FC<AboutProps> = ({ className }) => {
   return (
-    <section id="about" className={cn('pt-12 pb-28 md:pt-16 md:pb-36 bg-gray-50 relative', className)}>
+    <section id="about" className={cn('pt-20 pb-16 md:pt-24 md:pb-20 bg-gray-50 relative', className)}>
       {/* Extended background removed to fix layout issues */}
       {/* Quote streams on sides */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
@@ -21,12 +21,12 @@ const About: React.FC<AboutProps> = ({ className }) => {
             <p className="text-xs text-gray-500 uppercase tracking-[0.4em] font-medium mb-6">
               About
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-16 leading-[0.95] tracking-[-0.02em]">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-12 leading-[0.95] tracking-[-0.02em]">
               Who We Are
             </h2>
           </FadeIn>
 
-          <div className="grid lg:grid-cols-2 gap-20">
+          <div className="grid lg:grid-cols-2 gap-12">
             <div>
               <FadeIn delay={100}>
                 <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-10 font-normal">

@@ -9,7 +9,7 @@ interface ManifestoProps {
 
 const Manifesto: React.FC<ManifestoProps> = ({ className }) => {
   return (
-    <section id="what-we-do" className={cn('pt-8 pb-28 md:pt-12 md:pb-36 bg-white relative overflow-hidden', className)}>
+    <section id="what-we-do" className={cn('pt-16 pb-16 md:pt-20 md:pb-20 bg-white relative overflow-hidden', className)}>
       {/* Routing nodes animation - subtle */}
       <div className="absolute inset-0 opacity-20 pointer-events-none">
         <RoutingNodes />
@@ -20,18 +20,18 @@ const Manifesto: React.FC<ManifestoProps> = ({ className }) => {
             <p className="text-xs text-gray-500 uppercase tracking-[0.4em] font-medium mb-6">
               Products
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-16 leading-[0.95] tracking-[-0.02em]">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-12 leading-[0.95] tracking-[-0.02em]">
               What We Do
             </h2>
           </FadeIn>
           
           <FadeIn delay={100}>
-            <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-20 max-w-3xl font-normal">
+            <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-12 max-w-3xl font-normal">
               We build smart crypto execution routing. Connect to major exchanges, unified order book, route to the venue with the best price and liquidity.
             </p>
           </FadeIn>
           
-          <div className="grid lg:grid-cols-2 gap-16 mb-20">
+          <div className="grid lg:grid-cols-2 gap-12 mb-12">
             <FadeIn delay={150}>
               <div className="border-t border-gray-200 pt-10">
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 tracking-[-0.01em]">Smart Order Routing</h3>

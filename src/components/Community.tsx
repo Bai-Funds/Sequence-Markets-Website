@@ -9,7 +9,7 @@ interface CommunityProps {
 
 const Community: React.FC<CommunityProps> = ({ className }) => {
   return (
-    <section id="contact" className={cn('pt-8 pb-28 md:pt-12 md:pb-36 bg-white relative overflow-hidden', className)}>
+    <section id="contact" className={cn('pt-16 pb-16 md:pt-20 md:pb-20 bg-white relative overflow-hidden', className)}>
       {/* Stock chart lines background - subtle */}
       <div className="absolute inset-0 opacity-15 pointer-events-none">
         <BackgroundChart lightMode />
@@ -20,18 +20,18 @@ const Community: React.FC<CommunityProps> = ({ className }) => {
             <p className="text-xs text-gray-500 uppercase tracking-[0.4em] font-medium mb-6">
               Contact
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-16 leading-[0.95] tracking-[-0.02em]">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-12 leading-[0.95] tracking-[-0.02em]">
               Get Started
             </h2>
           </FadeIn>
           
           <FadeIn delay={100}>
-            <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-20 max-w-2xl font-normal">
+            <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-12 max-w-2xl font-normal">
               Reduce execution cost. Full transparency. No custody risk.
             </p>
           </FadeIn>
 
-          <div className="grid lg:grid-cols-3 gap-12 mb-20">
+          <div className="grid lg:grid-cols-3 gap-12 mb-12">
             <FadeIn delay={150}>
               <div className="border-t border-gray-200 pt-10">
                 <h3 className="text-lg font-bold text-gray-900 mb-6">For Institutions</h3>

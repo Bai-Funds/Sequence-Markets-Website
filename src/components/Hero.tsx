@@ -55,7 +55,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
   const line2Text = displayText.slice(16);
 
   return (
-    <section className={cn('relative w-full min-h-[100svh] bg-white overflow-hidden', className)}>
+    <section id="home" className={cn('relative w-full min-h-[100svh] bg-white overflow-hidden', className)}>
       {/* Stock chart lines background - subtle */}
       <div className="absolute inset-0 opacity-15 pointer-events-none">
         <BackgroundChart lightMode />
