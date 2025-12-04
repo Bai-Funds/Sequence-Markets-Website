@@ -3,7 +3,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Manifesto from '@/components/Manifesto';
 import Gap from '@/components/Gap';
-import FoundersInSearch from '@/components/FoundersInSearch';
+// import FoundersInSearch from '@/components/FoundersInSearch'; // Temporarily deprecated
 import TechnologyPlatform from '@/components/TechnologyPlatform';
 import About from '@/components/About';
 import Community from '@/components/Community';
@@ -53,7 +53,7 @@ const Index = () => {
         <Manifesto />
         <Gap />
         <TechnologyPlatform />
-        <FoundersInSearch />
+        {/* <FoundersInSearch /> */} {/* Temporarily deprecated - will add back later */}
         <Community />
         <Footer />
       </div>

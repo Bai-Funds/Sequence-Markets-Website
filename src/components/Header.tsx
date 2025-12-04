@@ -109,7 +109,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
               { id: 'about', label: 'About' },
               { id: 'what-we-do', label: 'Products' },
               { id: 'technology', label: 'Technology' },
-              { id: 'team', label: 'Team' },
+              // { id: 'team', label: 'Team' }, // Temporarily deprecated
               { id: 'contact', label: 'Contact' },
             ].map((item) => (
               <button
@@ -139,7 +139,7 @@ const NavLinks: React.FC<NavLinksProps> = ({ scrollToSection }) => {
     { id: 'about', label: 'About' },
     { id: 'what-we-do', label: 'Products' },
     { id: 'technology', label: 'Technology' },
-    { id: 'team', label: 'Team' },
+    // { id: 'team', label: 'Team' }, // Temporarily deprecated
     { id: 'contact', label: 'Contact' },
   ];
 

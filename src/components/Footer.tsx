@@ -30,7 +30,7 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
               <div className="flex flex-col space-y-3">
                 {[
                   { id: 'about', label: 'About' },
-                  { id: 'team', label: 'Team' },
+                  // { id: 'team', label: 'Team' }, // Temporarily deprecated
                   { id: 'contact', label: 'Contact' },
                 ].map((item) => (
                   <button
