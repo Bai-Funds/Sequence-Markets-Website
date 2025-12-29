@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 import BackgroundChart from './BackgroundChart';
 
@@ -100,6 +101,12 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
               >
                 Contact
               </a>
+              <Link 
+                to="/mailing-list"
+                className="inline-block border border-gray-300 text-gray-700 font-medium text-xs uppercase tracking-[0.2em] px-8 py-4 hover:border-gray-900 hover:text-gray-900 transition-all duration-200"
+              >
+                Learn More
+              </Link>
             </div>
           </div>
         </div>

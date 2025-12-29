@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 import { useSmoothScroll } from '@/hooks/useSmoothScroll';
 
@@ -30,6 +31,18 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
   }, [isMobileMenuOpen]);
 
   const scrollToSection = useSmoothScroll();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleLogoClick = () => {
+    if (location.pathname !== '/') {
+      navigate('/');
+      // Small timeout to allow navigation to complete before scrolling
+      setTimeout(() => scrollToSection('home'), 100);
+    } else {
+      scrollToSection('home');
+    }
+  };
 
   return (
     <header
@@ -43,7 +56,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
     >
       <div className="container mx-auto flex items-center justify-between h-full">
         <button
-          onClick={() => scrollToSection('home')}
+          onClick={handleLogoClick}
           className="flex items-center transition-opacity hover:opacity-70 h-full"
         >
           <img
@@ -111,12 +124,23 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
               { id: 'technology', label: 'Technology' },
               // { id: 'team', label: 'Team' }, // Temporarily deprecated
               { id: 'contact', label: 'Contact' },
+              { id: 'contact', label: 'Contact' },
+              { id: 'learn-more', label: 'Learn More' },
             ].map((item) => (
               <button
                 key={item.id}
                 className="text-left text-gray-900 hover:text-gray-500 transition-colors uppercase tracking-[0.2em] text-[11px] font-normal"
                 onClick={() => {
-                  scrollToSection(item.id);
+                  if (item.id === 'learn-more') {
+                    navigate('/mailing-list');
+                  } else {
+                    if (location.pathname !== '/') {
+                      navigate('/');
+                      setTimeout(() => scrollToSection(item.id), 100);
+                    } else {
+                      scrollToSection(item.id);
+                    }
+                  }
                   setIsMobileMenuOpen(false);
                 }}
               >
@@ -141,14 +165,32 @@ const NavLinks: React.FC<NavLinksProps> = ({ scrollToSection }) => {
     { id: 'technology', label: 'Technology' },
     // { id: 'team', label: 'Team' }, // Temporarily deprecated
     { id: 'contact', label: 'Contact' },
+    { id: 'learn-more', label: 'Learn More' },
   ];
+
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleNavClick = (id: string) => {
+    if (id === 'learn-more') {
+      navigate('/mailing-list');
+      return;
+    }
+
+    if (location.pathname !== '/') {
+      navigate('/');
+      setTimeout(() => scrollToSection(id), 100);
+    } else {
+      scrollToSection(id);
+    }
+  };
 
   return (
     <>
       {navItems.map((item) => (
         <button
           key={item.id}
-          onClick={() => scrollToSection(item.id)}
+          onClick={() => handleNavClick(item.id)}
           className="text-[11px] font-normal text-gray-700 hover:text-gray-900 transition-colors uppercase tracking-[0.2em]"
         >
           {item.label}
