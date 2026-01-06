@@ -66,7 +66,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
               )} />
             </h1>
             
-            <div className="flex items-center gap-6 mb-6 animate-fade-in-up">
+            <div className="flex items-center gap-4 md:gap-6 mb-6 animate-fade-in-up flex-wrap">
               <div className="flex items-center gap-2">
                 <span className="text-xs md:text-sm text-gray-500 uppercase tracking-[0.4em] font-medium">Backed by</span>
                 <a 
@@ -78,7 +78,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
                   <img 
                     src="/assets/Y_Combinator_logo_text_wordmark.webp" 
                     alt="Y Combinator" 
-                    className="h-6 md:h-8 w-auto object-contain opacity-80"
+                    className="h-7 md:h-8 w-auto object-contain opacity-80 min-h-[20px]"
                   />
                 </a>
               </div>
@@ -94,7 +94,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
                   <img 
                     src="/assets/Anthropic_logo.svg.png" 
                     alt="Anthropic" 
-                    className="h-4 md:h-6 w-auto object-contain opacity-70 max-w-[120px]"
+                    className="h-5 md:h-6 w-auto object-contain opacity-70 max-w-[120px] min-h-[16px]"
                   />
                 </a>
               </div>
