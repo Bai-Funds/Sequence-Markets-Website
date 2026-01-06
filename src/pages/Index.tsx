@@ -7,6 +7,7 @@ import Gap from '@/components/Gap';
 import TechnologyPlatform from '@/components/TechnologyPlatform';
 import About from '@/components/About';
 import Community from '@/components/Community';
+import Partners from '@/components/Partners';
 import Footer from '@/components/Footer';
 import CryptoTicker from '@/components/CryptoTicker';
 
