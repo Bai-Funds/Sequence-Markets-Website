@@ -3,36 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sequence Markets | The Execution OS for Digital Assets</title>
-    <meta name="description" content="Sequence Markets builds venue-neutral smart order routing for crypto and tokenised assets. Non-custodial, high-performance execution infrastructure for institutions, exchanges, and brokers." />
-    <meta name="author" content="Sequence Markets" />
-    <meta property="og:image" content="/og-image.png" />
+    <title>Sequence Markets | Smart Order Routing for Crypto & Digital Assets</title>
+    <meta name="description" content="Sequence Markets builds venue-neutral smart order routing for crypto and tokenized assets. Y Combinator W26 backed. Non-custodial, high-performance execution infrastructure." />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href="https://sequencemkts.com/" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
-    <script type="module" crossorigin src="/assets/index-C4xaXGul.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DVVDvIrl.css">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background: #f9fafb;
+        color: #111827;
+      }
+      .container {
+        text-align: center;
+        padding: 2rem;
+      }
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+      }
+      p {
+        color: #6b7280;
+        margin-bottom: 2rem;
+      }
+      a {
+        display: inline-block;
+        background: #111827;
+        color: white;
+        padding: 0.75rem 2rem;
+        text-decoration: none;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        transition: background 0.2s;
+      }
+      a:hover {
+        background: #374151;
+      }
+    </style>
   </head>
-
   <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <div class="container">
+      <h1>404</h1>
+      <p>Page not found. Redirecting to homepage...</p>
+      <a href="/">Go to Homepage</a>
+    </div>
     <script>
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script takes the current url and converts the path and query
-      // string into just a query string, and then redirects the browser
-      // to the new url with only a query string and hash fragment.
-      var pathSegmentsToKeep = 0;
-
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+      // Redirect to homepage after 2 seconds
+      setTimeout(function() {
+        window.location.replace('/');
+      }, 2000);
     </script>
   </body>
-</html> 
+</html>
