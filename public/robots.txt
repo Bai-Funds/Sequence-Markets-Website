@@ -1,10 +1,11 @@
 # Sequence Markets - Smart Order Routing for Crypto & Digital Assets
 # https://sequencemkts.com
+# Y Combinator W26 Backed | Partnered with Anthropic
 
 User-agent: *
 Allow: /
 
-# Sitemap
+# Sitemap location
 Sitemap: https://sequencemkts.com/sitemap.xml
 
 # Allow search engines to index all content
@@ -12,8 +13,8 @@ Allow: /assets/
 Allow: /#about
 Allow: /#what-we-do
 Allow: /#technology
-Allow: /#team
 Allow: /#contact
+Allow: /#how-it-works
 
 # Disallow non-public areas
 Disallow: /admin/
@@ -23,15 +24,19 @@ Disallow: /node_modules/
 Disallow: /*.json$
 Disallow: /*.map$
 
-# Crawl rate (be friendly to search engines)
-Crawl-delay: 1
-
-# Google specific
+# Google specific - prioritize indexing
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
 
-# Bing specific  
+# Bing specific
 User-agent: Bingbot
 Allow: /
-Crawl-delay: 1 
+Crawl-delay: 1
+
+# Allow all image crawlers
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot-Media
+Allow: /
