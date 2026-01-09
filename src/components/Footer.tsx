@@ -64,26 +64,17 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-gray-200">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-6">
-            <div className="text-sm text-gray-400 font-normal">
-              &copy; {new Date().getFullYear()} Sequence Markets. All rights reserved.
-            </div>
-            <div className="text-center md:text-left">
-              <a
-                href="mailto:team@sequencemkts.com"
-                className="text-sm text-gray-500 hover:text-gray-900 transition-colors font-normal"
-              >
-                team@sequencemkts.com
-              </a>
-            </div>
+        <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="text-sm text-gray-400 font-normal order-2 md:order-1">
+            &copy; {new Date().getFullYear()} Sequence Markets. All rights reserved.
           </div>
-          <div className="flex justify-center items-center gap-6 pt-4">
+          
+          <div className="flex items-center gap-6 order-1 md:order-2">
             <a
               href="https://x.com/SequenceMarkets"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-gray-900 transition-colors"
+              className="text-gray-400 hover:text-gray-600 transition-colors"
               aria-label="X / Twitter"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -94,7 +85,7 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
               href="https://t.me/sequencemarkets"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-gray-900 transition-colors"
+              className="text-gray-400 hover:text-gray-600 transition-colors"
               aria-label="Telegram"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -105,7 +96,7 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
               href="https://www.linkedin.com/company/sequence-markets"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-gray-900 transition-colors"
+              className="text-gray-400 hover:text-gray-600 transition-colors"
               aria-label="LinkedIn"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -116,12 +107,22 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
               href="https://www.ycombinator.com/companies?batch=Winter%202026&query=sequence%20Markets"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-gray-900 transition-colors"
+              className="text-gray-400 hover:text-gray-600 transition-colors"
               aria-label="Y Combinator"
             >
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 6.5L7 18.5h3.5l1.5-4 1.5 4H17L12 6.5z"/>
+              <svg className="w-5 h-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <rect width="24" height="24" rx="3" fill="currentColor"/>
+                <path d="M6.5 7.5l5.5 6.5v4h-2v-3.5l-4.5-5.5h2.5l3 3.5 3-3.5h2.5l-4.5 5.5v3.5h-2v-4l5.5-6.5h-2.5l-3.5 4-3.5-4h-2.5z" fill="white"/>
               </svg>
+            </a>
+          </div>
+          
+          <div className="text-center md:text-right order-3">
+            <a
+              href="mailto:team@sequencemkts.com"
+              className="text-sm text-gray-500 hover:text-gray-900 transition-colors font-normal"
+            >
+              team@sequencemkts.com
             </a>
           </div>
         </div>
