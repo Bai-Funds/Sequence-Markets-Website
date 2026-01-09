@@ -112,7 +112,7 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
             >
               <svg className="w-5 h-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <rect width="24" height="24" rx="3" fill="currentColor"/>
-                <path d="M6.5 7.5l5.5 6.5v4h-2v-3.5l-4.5-5.5h2.5l3 3.5 3-3.5h2.5l-4.5 5.5v3.5h-2v-4l5.5-6.5h-2.5l-3.5 4-3.5-4h-2.5z" fill="white"/>
+                <path d="M6.5 6L12 13.5 17.5 6h-2.8l-2.7 4.5L9.3 6H6.5zM10.5 13.5V18h3v-4.5h-3z" fill="white"/>
               </svg>
             </a>
           </div>
