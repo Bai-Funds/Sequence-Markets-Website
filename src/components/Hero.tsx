@@ -82,7 +82,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
                   />
                 </a>
               </div>
-              <div className="h-4 w-px bg-gray-300"></div>
+              {/* <div className="h-4 w-px bg-gray-300"></div>
               <div className="flex items-center gap-2">
                 <span className="text-xs md:text-sm text-gray-500 uppercase tracking-[0.4em] font-medium">Partnered with</span>
                 <a 
@@ -97,7 +97,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
                     className="h-5 md:h-6 w-auto object-contain opacity-70 max-w-[120px] min-h-[16px]"
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
             
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-xl mb-14 font-normal animate-fade-in-up">
